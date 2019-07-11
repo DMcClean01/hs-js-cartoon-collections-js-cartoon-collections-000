@@ -35,3 +35,9 @@ function findTheCheese(foods) {
  	}
  	return "no cheese!";
 }
+
+function startsWithB(names) {
+  for(var i = 0; i < names.length; i++){
+    if(names[i].startsWith("B") {
+  }
+}
