@@ -24,12 +24,12 @@ function longPlaneteerCalls(words) {
 }
 
 //Function 4 - Find the Cheese
-function findTheCheese (foods) {
+function findTheCheese(foods) {
  	var cheese = ["camembert", "cheddar", "gouda"];
  	for(var i = 0; i < foods.length; i++) {
- 		for(var k = i; k < cheese.length; k++){
- 			if(foods[i] === cheese[k]) {
- 				return cheese[k];
+ 		for(var x = i; x < cheese.length; x++){
+ 			if(foods[i] === cheese[x]) {
+ 				return cheese[x];
  		  }
  	  }
  	}
